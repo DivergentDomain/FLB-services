@@ -7,7 +7,7 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   padding: 0 200 0 0;
-  background-color: dimgray;
+  background-color: #48d1cc;
 }
 
 h1 {
@@ -26,6 +26,8 @@ hr {
 .top-container {
   position: relative;
   text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
 }
 
 .intro {
@@ -34,12 +36,31 @@ hr {
   width: 60%;
 }
 
-.details {
+#details {
   margin: 50px auto;
   position: relative;
   width: 60%;
 }
 
-.contact-me {
+.middle-container {
+  background-color: #fff;
+}
+
+#contact-me {
+  margin: 19% auto;
+  background-color: #fff;
   margin: 50px auto;
+}
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.business-card {
+  margin: 10px auto;
 }
